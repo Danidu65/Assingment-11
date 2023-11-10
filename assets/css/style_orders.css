@@ -11,7 +11,7 @@ body > .background {
     align-items: center;
     justify-content: center;
     align-content: center;
-    background-color: #FAFAFA;
+    background-color: #a2c1e0;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
     border-radius: 10px;
     padding: 10px;
@@ -57,6 +57,14 @@ tr > td {
     background-color: #006b4d;
 }
 
+@media all and (max-width: 450px){
+    .remove-t-btn {
+        font-size: 10px;
+        padding: 2px;
+        width: fit-content;
+    }
+
+}
 
 
 
